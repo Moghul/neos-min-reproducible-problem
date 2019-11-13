@@ -24,7 +24,7 @@ class VideoCommandController extends \Neos\Flow\Cli\CommandController {
 
     public function createComponentsCommand() {
         $someOtherComponent = new SomeOtherComponent();
-	$video = new Video($someOtherComponent);
+        $video = new Video($someOtherComponent);
 
         $this->someOtherComponentRepository->add($someOtherComponent);
         $this->videoRepository->add($video);
