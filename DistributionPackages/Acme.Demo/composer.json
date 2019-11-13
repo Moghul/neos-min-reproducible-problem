@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "acme/demo",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\Demo\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Acme.Demo"
+        }
+    }
+}
